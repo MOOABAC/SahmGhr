@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sahm .gg/ghr</title>
+    <script>
+        var name = "[ King Sahm ]"; // تعديل هنا على الاسم الذي تريده
+    
+        function changeName() {
+            document.getElementById("name").textContent = name;
+            document.getElementById("name").style.color = "red"; // يمكنك تغيير لون النص هنا إذا كنت ترغب
+        }
+    
+        // Change the name every 3 seconds
+        setInterval(changeName, 0);
+    </script>
+    
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+        body {
+            font-family: 'Stick', sans-serif;
+            text-align: center;
+            background-color: #000000;
+            overflow: hidden;
+        }
+
+        h1, h3 {
+            font-family: 'Stick', sans-serif;
+            color: #cd1111;
+        }
+
+        #ip-address {
+            font-family: 'Stick', sans-serif;
+            color: rgb(255, 38, 0);
+        }
+
+        #ip-info {
+            font-family: 'Stick', sans-serif;
+            white-space: pre;
+            color: rgb(255, 0, 0);
+        }
+
+        .cmd-text-container {
+            position: relative;
+        }
+
+        .cmd-text {
+            font-family: 'Stick', sans-serif;
+            color: #000000;
+            font-size: 9px;
+            white-space: nowrap;
+            position: absolute;
+            animation: scrollText 20s linear infinite;
+            transform: translateX(100%);
+            -webkit-text-stroke: 1px Orange;
+            text-stroke: 1px Orange;
+        }
+
+        .gray-text {
+            color: #000000;
+            outline: 1px solid #000000;
+        }
+
+        .json-data {
+            font-family: 'Stick', sans-serif;
+            color: Orange;
+            text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        }
+
+        .json-data span {
+            color: black;
+        }
+
+        @keyframes scrollText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .cmd-text:hover {
+            animation-play-state: paused;
+        }
+
+        /* Apply blur filter to the first video only */
+        #blurred-video {
+            filter: blur(10px);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        /* Hide the audio controls */
+        audio {
+            display: none;
+        }
+
+        /* Custom position and size for the new image */
+        #custom-image {
+            position: absolute;
+            top: 50px; /* تعديل هذا القيمة لتحريك الصورة للأعلى أو الأسفل */
+            right: 70px; /* تعديل هذا القيمة لتحريك الصورة لليمين أو اليسار */
+            width: 200px; /* تعديل عرض الصورة */
+            height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+        }
+
+        
+        /* Style for the text below the custom image */
+        #custom-text {
+            position: absolute;
+            top: 290px; /* تعديل هذه القيمة حسب موضع النص */
+            right: 20px; /* يجب أن يكون نفس موضع الصورة */
+            color: rgb(174, 167, 167); /* تغيير لون النص */
+            font-size: 32px; /* تعديل حجم الخط */
+            width: 300px; /* مطابقة عرض الصورة */
+            text-align: center; /* ضبط النص إلى اليمين */
+        }
+
+        #custom-text1 {
+            position: absolute;
+            top: 480px; /* تعديل هذه القيمة حسب موضع النص */
+            right: 760px; /* يجب أن يكون نفس موضع الصورة */
+            color: rgb(249, 112, 0); /* تغيير لون النص */
+            font-size: 28px; /* تعديل حجم الخط */
+            width: 400px; /* مطابقة عرض الصورة */
+            text-align: center; /* ضبط النص إلى اليمين */
+        }
+
+        #custom-text2 {
+            position: absolute;
+            top: 500px; /* تعديل هذه القيمة حسب موضع النص */
+            right: 760px; /* يجب أن يكون نفس موضع الصورة */
+            color: rgb(184, 184, 184); /* تغيير لون النص */
+            font-size: 28px; /* تعديل حجم الخط */
+            width: 400px; /* مطابقة عرض الصورة */
+            text-align: center; /* ضبط النص إلى اليمين */
+        }
+
+
+
+    </style>
+</head>
+<body bgcolor="#000000">
+
+    <p align="center" style="animation: fadeIn 5s forwards;">
+        <img border="0" src="https://cdn.discordapp.com/attachments/1234682688783519776/1255309316295233586/g22.png?ex=667ca967&is=667b57e7&hm=36555a2088a5681259cd1d69b77f49f9fcab518ad694957e2e5fe6529494753b&" width="400" height="350">
+    </p>
+    
+
+    <p align="center">
+        <font face="Stick" size="6" style="color: #f3f2f2; animation: fadeIn 5s forwards;">
+            <span style="color: rgb(187, 187, 187);">Hacked By </span>
+            <span id="name"></span>
+        </font>
+        
+    </p>
+    <p align="center">
+        <b>
+            <font face="Stick" color="#000000" style="animation: fadeIn 5s forwards;">
+                <a href="https://discord.gg/ghr" style="font-size: 24px; color: rgb(255, 255, 255); text-decoration: none;">Discord.gg/</a> 
+                <span style="font-size: 24px; color: rgb(255, 0, 0);">Ghr</span>
+                
+            </font>
+            
+        </b>
+    </p>
+
+
+    
+    <p id="ip-address" style="animation: fadeIn 5s forwards;">
+        <!-- <span style="color: rgb(136, 136, 136);">Your IP Address:  </span> -->
+        <span id="ip-address-value" style="color: rgb(247, 247, 247); font-size: 17px;">SSSSSSSSSSSSSSSSSS.</span>
+    </p>
+    
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 5;
+            }
+        }
+    </style>
+    
+
+    <!-- <h3 style="font-family: 'Stick', sans-serif; color: rgb(255, 255, 255); animation: fadeIn 5s forwards;">Your IP Info :</h3> -->
+
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 5;
+            }
+        }
+    </style>
+ <!-- <pre id="ip-info" class="json-data" style="animation: fadeIn 5s forwards;">Fetching...</pre> -->
+
+ <style>
+     @keyframes fadeIn {
+         from {
+             opacity: 0;
+         }
+         to {
+             opacity: 5;
+         }
+     }
+ </style>
+ 
+
+    <!-- Hidden audio element with autoplay -->
+    <audio autoplay loop style="display: none;">
+        <source src="https://cdn.discordapp.com/attachments/1234682688783519776/1255310799522496522/Download_14.mp4?ex=667caac9&is=667b5949&hm=8eb24ea0d49ad38536dcdb71d489a390e16cf74ed2faad9a536f03dc5ec53e3d&" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video with blur filter -->
+    <video id="blurred-video" controls autoplay loop muted>
+        <source src="https://cdn.discordapp.com/attachments/1234682688783519776/1255311377833136179/king_Hoe_.mp4?ex=667cab53&is=667b59d3&hm=431857500694406b474a5a18775057053bec0e37e8959096702d9208a9c45019&">
+        Your browser does not support the video element.
+    </video>
+
+    <!-- Video element initially hidden -->
+    
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 5;
+            }
+        }
+    </style>
+    
+
+    <!-- Text below the second video -->
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 5;
+            }
+        }
+    </style>
+    
+    <!-- Custom image with specified position and size -->
+    <img id="custom-image" src="https://cdn.discordapp.com/attachments/1234682061672026122/1253813764134797494/fsafsafsafsa.png?ex=66773890&is=6675e710&hm=2966058e4e9dc928a1b883298245675f68eb1feeb827fcc323562499789e987b&" style="animation: fadeIn 5s forwards;">
+    
+
+    <!-- Text below the custom image -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap">
+
+
+
+    <p id="custom-text" style="font-family: 'Jomhuria', sans-serif; animation: fadeIn 5s forwards;">
+        والله لأجهز جيوش الحب واحتلك<br>
+        مسكين ربي بلاك بعاشق ارهابي<br>
+        سلم جيوش الغلا للمغرم احسن لك<br>
+        وسجل جنود الهوى والحب في حسابي<br>
+        ماتدري اني تعبت الين ما اوصلك<br>
+        بعد ماحزت يا خلي على اعجابي<br>
+        من يوم شفتك وانا مفتون في كلك<br>
+        ياليت تدري جمالك وش سوا بي
+    </p>
+
+
+    <p id="custom-text2" style="font-faily: 'Jomhuria', sans-serif; animation: fadeIn 5s forwards;">
+        Don't play with me You Play With King of FiveM !<br>
+   </p>
+
+    <!-- <p id="custom-text2" style="font-family: 'Jomhuria', sans-serif; animation: fadeIn 5s forwards;">
+        Be Ready Logs Team For The Big hit on Data Base 
+   </p> -->
+    
+        
+        
+        
+
+
+    <script>
+        // Function to show video and text after a delay
+        function showVideoAndText() {
+            // Show the video
+            var video = document.getElementById("delayed-video");
+            video.style.display = "block";
+
+            // Show the text
+            var text = document.getElementById("delayed-text");
+            text.style.display = "block";
+        }
+
+        // Delay showing the video and text by 3 seconds (3000 milliseconds)
+        setTimeout(showVideoAndText, 1);
+
+        // JavaScript code to fetch and display the user's IP address and information
+        function fetchIPAndInfo() {
+        fetch('https://api.imat=json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('ip-address-value').textContent = data.ip;
+                return data.ip;
+            })
+            .then(ip => fetch(`https://ipinfo.io/${ip}/json`))
+            .then(response => response.json())
+            .then(ipInfoData => {
+                document.getElementById('ip-info').textContent = JSON.stringify(ipInfoData, null, 2);
+                document.getElementById('ip-info').style.animation = "fadeIn 5s forwards"; // تأثير التلاشي هنا
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('ip-address-value').textContent = '';
+                document.getElementById('ip-info').textContent = 'Sahm.';
+            });
+    }
+
+    // Fetch IP address and information initially
+    fetchIPAndInfo();
+</script>
+
+<style>
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 5;
+        }
+    }
+</style>
+
+    </script>
+</body>
+</html>
